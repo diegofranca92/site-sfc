@@ -39,6 +39,16 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
     emblaMainApi.on("select", onSelect).on("reInit", onSelect);
   }, [emblaMainApi, onSelect]);
 
+  const setasBtn = false;
+
+  const scrollPrev = useCallback(() => {
+    if (emblaMainApi) emblaMainApi.scrollPrev();
+  }, [emblaMainApi]);
+
+  const scrollNext = useCallback(() => {
+    if (emblaMainApi) emblaMainApi.scrollNext();
+  }, [emblaMainApi]);
+
   return (
     <div className="embla">
       <div className="embla__viewport pe-0.5 ps-4" ref={emblaMainRef}>
@@ -50,6 +60,16 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
           ))}
         </div>
       </div>
+      {setasBtn && (
+        <div>
+          <button className="embla__prev" onClick={scrollPrev}>
+            Prev
+          </button>
+          <button className="embla__next" onClick={scrollNext}>
+            Next
+          </button>
+        </div>
+      )}
 
       <div className="embla-thumbs">
         <div className="embla-thumbs__viewport" ref={emblaThumbsRef}>
