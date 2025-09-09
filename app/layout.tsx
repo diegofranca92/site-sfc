@@ -20,6 +20,14 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.ico",
   },
+  openGraph: {
+    title: "Minha Jóia SFC",
+    description:
+      "Cultura, história, agenda de eventos, empreendedores e oportunidades em São Francisco do Conde (BA).",
+    type: "website",
+    locale: "pt_BR",
+    siteName: "Minha Jóia SFC",
+  },
 };
 
 export const viewport: Viewport = {

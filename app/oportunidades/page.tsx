@@ -1,26 +1,55 @@
-import ProjectCard from "@/components/card";
-import { subtitle, title } from "@/components/primitives";
+"use client";
+import { Card, CardBody, CardHeader } from "@heroui/card";
+import { Listbox, ListboxItem } from "@heroui/listbox";
+import { Snippet } from "@heroui/snippet";
 
-export default function Oportunidades() {
+export const metadata_oportunidades = {
+  title: "Oportunidades",
+  description:
+    "Vagas de trabalho e links confiáveis próximos a São Francisco do Conde.",
+};
+
+const fontes = [
+  { nome: "SINE Bahia", url: "https://www.sinebahia.com.br" },
+  { nome: "VAGAS.com", url: "https://www.vagas.com.br" },
+  { nome: "Gupy", url: "https://www.gupy.io" },
+];
+
+export default function OportunidadesPage() {
   return (
-    <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-      <div className="inline-block max-w-xl text-center justify-center">
-        <span className={title()}>São Francisco do Conde</span>
-        <br />
-        <span className={title({ color: "violet", size: "sm" })}>
-          A Joia do Recôncavo
-        </span>
-        <br />
-        <div className={subtitle({ class: "mt-4" })}>
-          Beautiful, fast and modern React UI library.
-        </div>
-      </div>
+    <section className="space-y-6">
+      <header className="space-y-2">
+        <h1 className="text-2xl font-semibold">Oportunidades</h1>
+        <p className="text-foreground-600">
+          Confira vagas e fontes confiáveis para buscar trabalho na região.
+        </p>
+      </header>
 
-      <div className="flex gap-3"></div>
+      <Card>
+        <CardHeader>Links úteis</CardHeader>
+        <CardBody>
+          <Listbox aria-label="Sites de vagas">
+            {fontes.map((f, i) => (
+              <ListboxItem key={i} href={f.url} target="_blank">
+                {f.nome}
+              </ListboxItem>
+            ))}
+          </Listbox>
+        </CardBody>
+      </Card>
 
-      <div className="mt-8">
-        <ProjectCard />
-      </div>
+      <Card>
+        <CardHeader>Compartilhe uma vaga</CardHeader>
+        <CardBody>
+          <p className="mb-2 text-sm text-foreground-600">
+            Quer divulgar uma vaga? Envie um e-mail com título, descrição e
+            contato.
+          </p>
+          <Snippet symbol="" variant="flat" color="primary">
+            oportunidades@minhajoiasfc.com.br
+          </Snippet>
+        </CardBody>
+      </Card>
     </section>
   );
 }
