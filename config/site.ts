@@ -1,31 +1,24 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + HeroUI",
-  description: "Make beautiful websites regardless of your design experience.",
+  name: "Minha Jóia SFC | São Francisco do Conde - Bahia",
+  description: "Descubra São Francisco do Conde - Bahia: história, cultura, eventos, oportunidades locais, blog com memórias e empreendedores da cidade.",
   navItems: [
-    {
-      label: "Inicio",
-      href: "/",
-    },
-    {
-      label: "SFC",
-      href: "/sfc",
-    },
+    { label: "Início", href: "/" },
+    { label: "Nossa Cidade", href: "/nossa-cidade" },
+    { label: "Feito em SFC", href: "/feito-em-sfc" },
+    { label: "Agenda de Rolês", href: "/agenda" },
+    { label: "Oportunidades", href: "/oportunidades" },
+    { label: "Blog", href: "/blog" },
   ],
-  navMenuItems: [
-    {
-      label: "Inicio",
-      href: "/",
-    },
-    {
-      label: "SFC",
-      href: "/sfc",
-    },
-    {
-      label: "Logout",
-      href: "/logout",
-    },
+  navMobileItems: [
+    { label: "Início", href: "/" },
+    { label: "Nossa Cidade", href: "/nossa-cidade" },
+    { label: "Feito em SFC", href: "/feito-em-sfc" },
+    { label: "Agenda de Rolês", href: "/agenda" },
+    { label: "Oportunidades", href: "/oportunidades" },
+    { label: "Blog", href: "/blog" },
+    { label: "Logout", href: "/logout" },
   ],
   links: {
     github: "https://github.com/heroui-inc/heroui",
