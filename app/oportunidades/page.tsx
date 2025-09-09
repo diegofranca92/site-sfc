@@ -3,12 +3,6 @@ import { Card, CardBody, CardHeader } from "@heroui/card";
 import { Listbox, ListboxItem } from "@heroui/listbox";
 import { Snippet } from "@heroui/snippet";
 
-export const metadata_oportunidades = {
-  title: "Oportunidades",
-  description:
-    "Vagas de trabalho e links confiáveis próximos a São Francisco do Conde.",
-};
-
 const fontes = [
   { nome: "SINE Bahia", url: "https://www.sinebahia.com.br" },
   { nome: "VAGAS.com", url: "https://www.vagas.com.br" },
