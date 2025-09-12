@@ -1,6 +1,6 @@
 {
-  "commit": "a77b36aef95d74342a307256ceaad1230475997d",
-  "generated": "2025-09-12T21:30:19.366Z",
+  "commit": "313b9131731eed75ba6d93b3ab2a778353143bdc",
+  "generated": "2025-09-12T21:30:22.285Z",
   "metadata": [
     {
       "__outstatic": {
@@ -27,8 +27,8 @@
     },
     {
       "__outstatic": {
-        "commit": "a77b36aef95d74342a307256ceaad1230475997d",
-        "hash": "2014945690",
+        "commit": "313b9131731eed75ba6d93b3ab2a778353143bdc",
+        "hash": "1910817853",
         "path": "outstatic/content/blog/teste-lista.mdx"
       },
       "author": {
@@ -45,7 +45,7 @@
       "coverImage": "",
       "publishedAt": "2025-09-12T21:11:09.332Z",
       "slug": "teste-lista",
-      "status": "draft",
+      "status": "published",
       "title": "Teste lista"
     }
   ]
