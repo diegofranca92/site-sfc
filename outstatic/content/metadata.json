@@ -1,17 +1,23 @@
 {
-  "commit": "84fe520ea53a28ed6a7917469b9e9db0f51716b4",
-  "generated": "2025-09-12T14:22:27.466Z",
+  "commit": "b52265a48197b605cfb1e4cf1207f701ad7e7882",
+  "generated": "2025-09-12T20:41:39.765Z",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "84fe520ea53a28ed6a7917469b9e9db0f51716b4",
-        "hash": "367431010",
+        "commit": "b52265a48197b605cfb1e4cf1207f701ad7e7882",
+        "hash": "2003205070",
         "path": "outstatic/content/blog/historia-sfc.mdx"
       },
       "author": {
         "name": "Diego França",
         "picture": ""
       },
+      "category": [
+        {
+          "label": "historia",
+          "value": "historia"
+        }
+      ],
       "collection": "blog",
       "coverImage": "/assets/sfc_orla.jpg",
       "publishedAt": "2025-09-12T13:39:57.821Z",
