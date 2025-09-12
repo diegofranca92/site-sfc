@@ -1,0 +1,22 @@
+{
+  "commit": "",
+  "generated": "2025-09-12T13:59:09.776Z",
+  "metadata": [
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "2115663166",
+        "path": "outstatic/content/blog/historia-sfc.mdx"
+      },
+      "author": {
+        "name": "Diego França",
+        "picture": ""
+      },
+      "collection": "blog",
+      "publishedAt": "2025-09-12T13:39:57.821Z",
+      "slug": "historia-sfc",
+      "status": "draft",
+      "title": "Teste blog"
+    }
+  ]
+}
