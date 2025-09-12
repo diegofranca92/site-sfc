@@ -1,6 +1,12 @@
 {
   "title": "blog",
-  "slug": "blog",
   "type": "object",
-  "properties": {}
+  "properties": {
+    "coverImage": {
+      "required": false,
+      "fieldType": "Image",
+      "dataType": "image",
+      "title": "coverImage"
+    }
+  }
 }
