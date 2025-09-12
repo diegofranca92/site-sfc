@@ -17,6 +17,10 @@
         {
           "value": "historia",
           "label": "historia"
+        },
+        {
+          "value": "educacao",
+          "label": "educacao"
         }
       ]
     }

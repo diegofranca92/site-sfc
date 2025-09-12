@@ -1,6 +1,6 @@
 {
-  "commit": "b52265a48197b605cfb1e4cf1207f701ad7e7882",
-  "generated": "2025-09-12T20:41:39.765Z",
+  "commit": "a77b36aef95d74342a307256ceaad1230475997d",
+  "generated": "2025-09-12T21:30:19.366Z",
   "metadata": [
     {
       "__outstatic": {
@@ -24,6 +24,29 @@
       "slug": "historia-sfc",
       "status": "published",
       "title": "Teste blog update"
+    },
+    {
+      "__outstatic": {
+        "commit": "a77b36aef95d74342a307256ceaad1230475997d",
+        "hash": "2014945690",
+        "path": "outstatic/content/blog/teste-lista.mdx"
+      },
+      "author": {
+        "name": "Diego França",
+        "picture": "https://avatars.githubusercontent.com/u/29843809?v=4"
+      },
+      "category": [
+        {
+          "label": "educacao",
+          "value": "educacao"
+        }
+      ],
+      "collection": "blog",
+      "coverImage": "",
+      "publishedAt": "2025-09-12T21:11:09.332Z",
+      "slug": "teste-lista",
+      "status": "draft",
+      "title": "Teste lista"
     }
   ]
 }
