@@ -1,11 +1,11 @@
 {
-  "commit": "",
-  "generated": "2025-09-12T13:59:09.776Z",
+  "commit": "d81bee96c18fb0e7eaf078d77ff2d988190abffd",
+  "generated": "2025-09-12T14:01:12.858Z",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "",
-        "hash": "2115663166",
+        "commit": "d81bee96c18fb0e7eaf078d77ff2d988190abffd",
+        "hash": "2990676702",
         "path": "outstatic/content/blog/historia-sfc.mdx"
       },
       "author": {
@@ -15,7 +15,7 @@
       "collection": "blog",
       "publishedAt": "2025-09-12T13:39:57.821Z",
       "slug": "historia-sfc",
-      "status": "draft",
+      "status": "published",
       "title": "Teste blog"
     }
   ]
