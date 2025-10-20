@@ -9,6 +9,14 @@
 - [ ] Automatizar algumas coisas pra envio de emails
 - [ ] Pensar em formas de backup - Replicar algumas coisas pra outros lugares, tipo blogs do blogger, Github
 
+## Conteudo
+
+- Buscar do Youtube antigos e atuais (Um dedo de Prosa, Atila, entre outros)
+- Sites de Noticias ja existentes
+- Sites e blogs da Unilab
+- Sites e Blogs de grupos culturais ja existentes
+- Materias falando da cidade ou de festas ou de Grupos de SFC
+
 ### Paginas
 
 - Projetos legais, Personagens importantes da cidade, Eventos legais da Cidade, Empreendimentos legais
